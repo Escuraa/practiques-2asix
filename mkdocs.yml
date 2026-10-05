@@ -1,0 +1,32 @@
+site_name: Pràctiques 2ASIX - David
+site_url: https://escuraa.github.io/practiques-2asix/
+repo_url: https://github.com/Escuraa/practiques-2asix
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/brightness-7
+        name: Modo oscuro
+    - scheme: slate
+      primary: teal
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+
+nav:
+  - Inicio: index.md
+  - IAW:
+      - P1 Git y Github: iaw/p1-git-github.md
+      - P4 Github Pages: iaw/p4-github-pages.md
+  - ASO:
+      - PR03 Grups de treball: aso/pr03-grups-de-treball.md
+  - Seguridad:
+      - Práctica 1: seguretat/p1.md
